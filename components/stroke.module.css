@@ -1,0 +1,32 @@
+
+
+.stroke{
+    color: #FD4C5C;
+    text-fill-color:#FD4C5C;
+    text-stroke-width: 3px;
+    text-stroke-color:white;
+    -webkit-text-fill-color: #FD4C5C; 
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.shopstroke{
+    color: #FD4C5C;
+    text-fill-color:#fff;
+    text-stroke-width: 4px;
+    text-stroke-color:#FD4C5C;
+    -webkit-text-fill-color: #fff; 
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #FD4C5C;
+}
+
+@media screen and (max-width:540px){
+
+    .shopstroke, .stroke{
+        -webkit-text-stroke-width: 2px;
+        
+    }
+}
+
+
+
